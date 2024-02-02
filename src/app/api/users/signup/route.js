@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 import User from "@/models/user.model";
 
 // database connection
-await connectDB();
+connectDB();
 
 // sign up handler :: POST METHOD
 export async function POST(req) {
