@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const LoginPage = () => {
   return (
     <div className="flex flex-col justify-center items-center min-h-[100vh]">
@@ -31,6 +33,10 @@ const LoginPage = () => {
           Login
         </button>
       </form>
+
+      <Link href={"/signup"} className="text-blue-500 underline text-sm mt-4">
+        Visit Signup Page
+      </Link>
     </div>
   );
 };
