@@ -4,7 +4,9 @@ const SignupPage = () => {
       <h1 className="text-3xl font-bold">Sign Up</h1>
       <form className="flex flex-col gap-5 mt-5" action="">
         <span className="flex flex-col gap-1">
-          <label htmlFor="fullName">Full Name</label>
+          <label className="text-sm text-gray-200" htmlFor="fullName">
+            Full Name
+          </label>
           <input
             className="outline-none border-none px-2 py-1 rounded-md text-black"
             type="text"
@@ -14,7 +16,9 @@ const SignupPage = () => {
         </span>
 
         <span className="flex flex-col gap-1">
-          <label htmlFor="email">Email</label>
+          <label className="text-sm text-gray-200" htmlFor="email">
+            Email
+          </label>
           <input
             className="outline-none border-none px-2 py-1 rounded-md text-black"
             type="email"
@@ -24,7 +28,9 @@ const SignupPage = () => {
         </span>
 
         <span className="flex flex-col gap-1">
-          <label htmlFor="password">Password</label>
+          <label className="text-sm text-gray-200" htmlFor="password">
+            Password
+          </label>
           <input
             className="outline-none border-none px-2 py-1 rounded-md text-black"
             type="password"
